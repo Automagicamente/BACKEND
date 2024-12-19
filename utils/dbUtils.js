@@ -11,7 +11,7 @@ export const checkDatabaseConnection = async () => {
     setTimeout(checkDatabaseConnection, 3000); // 3 minutos en milisegundos
   }
 
-  try {
+  /* try {
     const createTable = await pool.query(`
       CREATE TABLE users (
         id INT AUTO_INCREMENT PRIMARY KEY,
@@ -27,5 +27,5 @@ export const checkDatabaseConnection = async () => {
   } catch (error) {
     console.log("tabla existe");
     
-  }
+  } */
 };
