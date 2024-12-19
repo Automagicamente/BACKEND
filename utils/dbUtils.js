@@ -25,7 +25,7 @@ export const checkDatabaseConnection = async () => {
     `);
     console.log("resultado de crear tabla", createTable);
   } catch (error) {
-    console.log("tabla existe");
+    console.log("tabla existe y no deberia volver a verificar esto");
     
   } */
 };
